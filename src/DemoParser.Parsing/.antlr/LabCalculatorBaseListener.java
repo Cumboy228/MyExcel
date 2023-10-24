@@ -148,6 +148,18 @@ public class LabCalculatorBaseListener implements LabCalculatorListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterUnaryExpr(LabCalculatorParser.UnaryExprContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitUnaryExpr(LabCalculatorParser.UnaryExprContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterArglist(LabCalculatorParser.ArglistContext ctx) { }
 	/**
 	 * {@inheritDoc}

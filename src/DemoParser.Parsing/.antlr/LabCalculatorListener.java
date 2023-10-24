@@ -137,6 +137,18 @@ public interface LabCalculatorListener extends ParseTreeListener {
 	 */
 	void exitMinExpr(LabCalculatorParser.MinExprContext ctx);
 	/**
+	 * Enter a parse tree produced by the {@code UnaryExpr}
+	 * labeled alternative in {@link LabCalculatorParser#expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterUnaryExpr(LabCalculatorParser.UnaryExprContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code UnaryExpr}
+	 * labeled alternative in {@link LabCalculatorParser#expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitUnaryExpr(LabCalculatorParser.UnaryExprContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link LabCalculatorParser#arglist}.
 	 * @param ctx the parse tree
 	 */
